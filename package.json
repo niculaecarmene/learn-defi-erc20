@@ -1,0 +1,27 @@
+{
+  "name": "learn-defi-star",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "console": "hardhat console",
+    "node": "hardhat node",
+    "learn-defi": "npx hardhat test test/tests.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "hardhat": "^2.13.0",
+    "mocha": "^10.2.0",
+    "web3": "^1.9.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2",
+    "dotenv": "^16.0.3"
+  }
+}
